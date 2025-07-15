@@ -1,6 +1,6 @@
 {
   "name": "gemini-sybase-cli-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ejecutor de queries Sybase vía Java como MCP server",
   "type": "module",
   "bin": {
