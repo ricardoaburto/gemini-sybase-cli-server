@@ -1,7 +1,7 @@
 {
   "name": "gemini-sybase-cli-server",
   "version": "1.0.0",
-  "description": "Ejecutor de queries Sybase vía PowerShell como MCP server",
+  "description": "Ejecutor de queries Sybase vía Java como MCP server",
   "type": "module",
   "bin": {
     "gemini-sybase-cli-server": "./index.js"
@@ -9,6 +9,19 @@
   "scripts": {
     "start": "node ./index.js"
   },
+  "files": [
+    "index.js",
+    "SybaseQuery.java",
+    "jtds-1.3.1.jar"
+  ],
+  "keywords": [
+    "sybase",
+    "cli",
+    "mcp",
+    "java",
+    "nodejs",
+    "sdk"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.13.2",
     "dotenv": "^17.0.0",
@@ -17,6 +30,6 @@
   "engines": {
     "node": ">=18"
   },
-  "author": "",
+  "author": "ricardo andres aburto jara r.ricardo.aburto@gmail.com",
   "license": "MIT"
 }
