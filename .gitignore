@@ -1,0 +1,19 @@
+node_modules/
+.vscode
+dist/
+out/
+dockerfile
+
+README.md
+.dockerignore
+coverage/
+debug.log
+package-lock.json
+
+.env
+.env.*
+
+
+# SonarQube
+.scannerwork
+.scannerwork/

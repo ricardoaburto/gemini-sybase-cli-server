@@ -1,0 +1,22 @@
+{
+  "name": "gemini-sybase-cli-server",
+  "version": "1.0.0",
+  "description": "Ejecutor de queries Sybase vía PowerShell como MCP server",
+  "type": "module",
+  "bin": {
+    "gemini-sybase-cli-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "dotenv": "^17.0.0",
+    "zod": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "",
+  "license": "MIT"
+}
