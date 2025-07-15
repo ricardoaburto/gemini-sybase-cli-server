@@ -1,19 +1,7 @@
+node_modules
+# Node.js
 node_modules/
-.vscode
-dist/
-out/
-dockerfile
-
-README.md
-.dockerignore
-coverage/
-debug.log
-package-lock.json
-
+npm-debug.log*
 .env
-.env.*
-
-
-# SonarQube
-.scannerwork
-.scannerwork/
+output.log
+logs/
